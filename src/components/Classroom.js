@@ -19,7 +19,7 @@ class Classroom extends React.Component {
 			<div id="classroom">
 				<Background />
 				<div id="classroom-login-signup">
-					<div className="classroom-title">Classroom</div>
+					<div className="classroom-title">Mentor Mate</div>
 					<button className="to-sign-in" onClick={() => history.push('/signin')}>Sign In</button>
 					<button className="to-sign-up" onClick={() => history.push('/signup')}>Sign Up</button>
 				</div>
