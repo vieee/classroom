@@ -7,7 +7,7 @@
 	"dependencies": {
 		"concurrently": "^3.5.1",
 		"electron": "^2.0.0",
-		"firebase": "^5.0.3",
+		"firebase": "^7.24.0",
 		"history": "^4.7.2",
 		"moment": "^2.22.2",
 		"rc-progress": "^2.2.5",

@@ -67,6 +67,7 @@ class Assignment extends React.Component {
 		database.ref('subjects/' + dbSubjectKey + '/assignments').on('value', (assignments) => {
 			let currentIndex = 0;
 			assignments.forEach((assignment) => {
+				// eslint-disable-next-line
 				if (assignmentIndex == currentIndex) {
 					this.setState({
 						assignmentNumber: assignment.val().assignmentNumber,

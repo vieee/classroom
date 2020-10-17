@@ -30,6 +30,7 @@ class Discussions extends React.Component {
 		database.ref('users/' + this.props.dbUserKey + '/userSubjects').on('value', (subjects) => {
 			let currentIndex = 0;
 			subjects.forEach((subject) => {
+				// eslint-disable-next-line
 				if (currentIndex == this.props.subIndex) {
 					database.ref('subjects/' + subject.val().dbSubjectKey + '/discussions').on('value', (discussions) => {
 						discussions.forEach((discussion) => {

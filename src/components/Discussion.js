@@ -42,10 +42,12 @@ class Discusson extends React.Component {
 		database.ref('users/' + this.props.dbUserKey + '/userSubjects').on('value', (subjects) => {
 			let currentSubIndex = 0;
 			subjects.forEach((subject) => {
+				// eslint-disable-next-line
 				if (currentSubIndex == subIndex) {
 					database.ref('subjects/' + subject.val().dbSubjectKey + '/discussions').on('value', (discussions) => {
 						let currentDiscussionIndex = 0;
 						discussions.forEach((discussion) => {
+							// eslint-disable-next-line
 							if (currentDiscussionIndex == discussionIndex) {
 								database.ref('subjects/' + subject.val().dbSubjectKey + '/discussions/' + discussion.key + '/comments').on('value', (comments) => {
 									comments.forEach((comment) => {

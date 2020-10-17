@@ -31,6 +31,7 @@ class SubjectHomePage extends React.Component {
 		database.ref('users/' + this.props.dbUserKey + '/userSubjects').on('value', (subjects) => {
 			let currentIndex = 0;
 			subjects.forEach((subject) => {
+				// eslint-disable-next-line
 				if (currentIndex == subIndex) {
 					database.ref('subjects/' + subject.val().dbSubjectKey).on('value', (currentSubject) => {
 						this.setState({
