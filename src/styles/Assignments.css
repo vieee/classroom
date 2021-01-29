@@ -90,9 +90,9 @@
 	font-family: 'Nunito';
 }
 
-.react-datepicker__time-list {
+/*.react-datepicker__time-list {
 	transform: translateX(-30px);
-}
+}*/
 
 .create-assignment-button {
 	cursor: pointer;
