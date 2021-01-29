@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactModal from 'react-modal';
 import { database, firebase } from '../firebase/firebase';
+// import { Chatbot } from 'react-chatbot-kit';
 import { history } from '../routes/AppRouter';
 
 import Background from './Background';
@@ -101,7 +102,9 @@ class HomePage extends React.Component {
 							<button onClick={this.handleCloseModal} className="close-modal-button">Cancel</button>
 						</form>
 					</ReactModal>
+					{/* kahoot, attendace, google signin, calendar, cnn: image, polls, ppt-updn, chatbot, research work notification systems */}
 				</div>
+				{/* <Chatbot/> */}
 			</div>
 		);
 	}

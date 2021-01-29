@@ -16,6 +16,7 @@ import Discussion from '../components/Discussion';
 import StudyMaterials from '../components/StudyMaterials';
 import Assignment from '../components/Assignment';
 import AllSubjects from '../components/AllSubjects';
+import Polls from '../components/Polls';
 
 export const history = createHistory();
 
@@ -48,6 +49,7 @@ const AppRouter = () => (
 			<Route path='/allsubjects' render={(props) => <AllSubjects {...props} dbUserKey={dbUserKey} />} />
 			<Route path='/subjecthomepage' render={(props) => <SubjectHomePage {...props} dbUserKey={dbUserKey} />} />
 			<Route path='/announcements' render={(props) => <Announcements {...props} dbUserKey={dbUserKey} />} />
+			<Route path='/polls' render={(props) => <Polls {...props} dbUserKey={dbUserKey} />} />
 			<Route path='/opendiscussion' render={(props) => <OpenDiscussion {...props} dbUserKey={dbUserKey} /> } />
 			<Route path='/discussion' render={(props) => <Discussion {...props} dbUserKey={dbUserKey} />} />
 			<Route path='/studymaterials' render={(props) => <StudyMaterials {...props} dbUserKey={dbUserKey} /> } />

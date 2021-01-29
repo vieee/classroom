@@ -5,6 +5,7 @@ import { database } from '../firebase/firebase';
 import Background from './Background';
 import Header from './Header';
 import ShortAnnouncements from './ShortAnnouncements';
+import ShortPolls from './ShortPolls';
 import Discussions from './Discussions';
 import Assignments from './Assignments';
 
@@ -63,6 +64,7 @@ class SubjectHomePage extends React.Component {
 				<div className="subject-home">
 					<Header subjectCode={this.state.subjectCode} subjectName={this.state.subjectName} />
 					<ShortAnnouncements subIndex={subIndex} dbUserKey={this.props.dbUserKey} />
+					<ShortPolls subIndex={subIndex} dbUserKey={this.props.dbUserKey} />
 					<div className="open-and-specific-discussions">
 						<div className="open-discussion" onClick={this.goToOpenDiscussion}>
 							<div className="open-discussion-title">Open Discussion</div>
