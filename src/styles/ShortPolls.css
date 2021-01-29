@@ -1,0 +1,48 @@
+.short-polls {
+	position: absolute;
+	top: 158px;
+	left: 0;
+	width: 330px;
+	font-family: 'Nunito';
+	border: 1px solid white;
+	box-shadow: 1px 1px 1px white;
+	margin: 2px;
+	padding: 2px;
+}
+
+.short-polls-title {
+	height: 35px;
+	width: 95%;
+	line-height: 35px;
+	padding: 5px;
+	font-size: 20px;
+	border-bottom: 1px solid white;
+	text-align: center;
+}
+
+.short-poll {
+	min-height: 30px;
+	margin: 4px;
+	padding: 5px;
+	border-bottom: 1px solid blue;
+	word-wrap: break-word;
+	line-height: 30px;
+}
+
+.more-poll-button {
+	height: 30px;
+	width: 100%;
+	outline: none;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.more-poll-button {
+	color: white;
+	text-decoration: none;
+}
+
+.more-poll-button:hover {
+	text-decoration: underline;
+}
