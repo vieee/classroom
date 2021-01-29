@@ -11,6 +11,8 @@ function createWindow() {
 		resizable: false,
 		title: 'Classroom'
 	});
+	mainWindow.webContents.openDevTools()
+
 	const startUrl = process.env.DEV_URL ||
 		url.format({
 		pathname: path.join(__dirname, '/../build/index.html'),
