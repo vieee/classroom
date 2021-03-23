@@ -5,7 +5,7 @@ An electron app similar to Google Classroom.
 
 - Clone Repository
 ```
-git clone https://github.com/PiyushPawar17/classroom.git
+git clone https://github.com/vieee/classroom.git
 cd classroom
 ```
 
@@ -39,33 +39,33 @@ To prevent the browser from opening set `BROWSER=none` in the `.env` file.
 
 Sign-In / Sign-Up Page
 
-![Main Page](./screenshots/Screenshot-1.JPG)
+![Main Page](./Screenshot-1.JPG)
 
 Subscribed Subjects
 
-![Subscribed Subjects](./screenshots/Screenshot-2.JPG)
+![Subscribed Subjects](./Screenshot-2.JPG)
 
 Lecture Notes and References (Teacher's View)
 
-![Lecture Notes and References](./screenshots/Screenshot-3.JPG)
+![Lecture Notes and References](./Screenshot-3.JPG)
 
 Announcements Page (Student's View)
 
-![Announcements Page](./screenshots/Screenshot-4.JPG)
+![Announcements Page](./Screenshot-4.JPG)
 
 Subject's Home Page (Student's View)
 
-![Subject's Home Page](./screenshots/Screenshot-5.JPG)
+![Subject's Home Page](./Screenshot-5.JPG)
 
 Assignment Page (Student's View)
 
-![Assignment Page](./screenshots/Screenshot-6.JPG)
+![Assignment Page](./Screenshot-6.JPG)
 
 Discussion Forum
 
-![Discussion](./screenshots/Screenshot-7.JPG)
+![Discussion](./Screenshot-7.JPG)
 
 Assignment Page (Teacher's View)
 
-![Assigment](./screenshots/Screenshot-8.JPG)
+![Assigment](./Screenshot-8.JPG)
 
